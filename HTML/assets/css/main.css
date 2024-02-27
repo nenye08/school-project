@@ -281,7 +281,7 @@ header .header-content .logo a {
 }
 
 header .header-content .logo img {
-    width: 100px; 
+    width: 50px; 
     height: auto; 
     border-radius: 40%; 
 }
@@ -484,6 +484,21 @@ header .navigation-bar nav ul ul ul {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+.col-lg-5 {
+    width: 40%;
+    float: right;
+}
+
+.banner-img {
+    position: relative;
+    text-align: right; 
+}
+
+.banner-img img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 20px;
 }
 
 .section-title {
@@ -728,7 +743,7 @@ header .navigation-bar nav ul ul ul {
     padding: 28px 28px 30px;
     border-radius: 25px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     overflow: hidden;
 }
 .course-section .courses-list .course-card:nth-child(2) {
@@ -851,11 +866,12 @@ header .navigation-bar nav ul ul ul {
 }
 .blog-section .blog-posts .blog-post .blog-info {
     padding: 0 20px;
+    border: 2px solid white;
 }
 .blog-section .blog-posts .blog-post .blog-info > h3 {
     color: #2b2b2b;
     font-size: 20.32px;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 4px;
 }
 .blog-section .blog-posts .blog-post .blog-info > h3:hover {
@@ -993,7 +1009,7 @@ footer .top-footer {
     padding-bottom: 59px;
 }
 footer .widget-about img {
-    width: 100px; 
+    width: 50px; 
     height: auto; 
     border-radius:40%; 
     margin-bottom: 10px; 
@@ -1188,6 +1204,8 @@ footer .bottom-footer .social-links {
 }
 .about-page-content .abt-page-row .section-title p {
     margin-bottom: 50px;
+    font-weight: 500;
+    line-height: 1.5;
 }
 .about-page-content .act-inffo > span {
     text-transform: uppercase;
