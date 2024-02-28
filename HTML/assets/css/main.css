@@ -523,7 +523,7 @@ header .navigation-bar nav ul ul ul {
     margin: 0 auto;
 }
 .about-us-section {
-    padding: 124px 0 100px;
+    padding: 10px 0 10px;
 }
 .about-us-section .about-sec {
     margin-bottom: 65px;
@@ -657,17 +657,7 @@ header .navigation-bar nav ul ul ul {
 .teachers-section .teachers .teacher .teacher-img > img {
     border-radius: 25px;
 }
-.teachers-section .teachers .teacher .teacher-img .sc-div {
-    position: absolute;
-    bottom: -20px;
-    right: 20px;
-    width: 40px;
-    background: linear-gradient(180deg, #fdc830, #f37335);
-    z-index: 99;
-    text-align: center;
-    border-radius: 30px;
-    padding: 8px 0 11px;
-}
+
 .teachers-section .teachers .teacher .teacher-img .sc-div:hover ul {
     display: block;
 }
@@ -1084,7 +1074,7 @@ footer .bottom-footer .social-links {
     text-align: right;
 }
 .pager-section {
-    background: url(../img/pager-bg.png), #f2f7fd;
+    background: url(../img/pager-bg.png);
     background-repeat: no-repeat;
     background-position: 100%;
     padding: 75px 0 85px;
@@ -1181,11 +1171,13 @@ footer .bottom-footer .social-links {
     font-size: 162.6px;
     font-weight: 600;
     opacity: 0.1;
+    z-index: -1;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .about-page-content {
     padding: 138px 0 0;
 }
